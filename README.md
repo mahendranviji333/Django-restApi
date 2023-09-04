@@ -14,11 +14,13 @@ Modelserializer for the same field without customization
 Serializer. Serializer custom view
 ViewSet serializer is automatically creates all
 
+
 Error Code
 https://www.django-rest-framework.org/api-guide/status-codes/
 
 Error Raise
 use Serializer.validaterError
+serializers.ValidationError(message)
 
 
 
